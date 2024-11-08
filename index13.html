@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 13</title>
+</head>
+<body>
+    <script>
+        let renda_mensal = prompt("digite a renda mensal do solicitante")
+        let valor_emprestimo = prompt("digite o valor do emprestimo")
+        let valor_prestacao = prompt("digite o valor da prestação")
+        let limite_emprestimo = 10 * renda_mensal
+        let limite_prestacao = 0.3 * renda_mensal
+        let prestacao = valor_emprestimo/ valor_prestacao
+   
+        if (valor_emprestimo <= limite_emprestimo){
+           alert("empréstimo pode ser concedido")
+        }
+        else{
+            alert("empréstimo não pode ser concedido")
+            
+        }
+    </script>
+</body>
+</html>
